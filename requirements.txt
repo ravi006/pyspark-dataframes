@@ -1,0 +1,21 @@
+# Linting
+flake8==2.1.0
+flake8_docstrings==0.2.0
+flake8_import_order==0.5.1
+
+#Task Executor
+fabric==1.12.0
+
+# Yaml
+PyYAML==3.11
+
+# Test
+pytest==2.8.2
+pytest-cov==2.2.0
+pytest-xdist==1.14
+coverage==4.0.2
+mock==1.0.1
+
+# File Downloader
+requests==2.13.0
+#pydoop==1.2.0

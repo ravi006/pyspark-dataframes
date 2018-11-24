@@ -1,0 +1,17 @@
+# Set FLAG AS True to enable processing of each task lists.
+spark_etl_processing:
+  TASK1 : "true"
+  TASK2 : "true"
+  TASK3 : "true"
+
+spark_etl:
+  DATA_FORMAT : "com.databricks.spark.csv"
+
+dev_raw_data_hdfs_path:
+  RELA : "/data/gowalla/test/users.txt"
+  CHECK : "/data/gowalla/test/users_checkins.txt"
+
+dev_results_data_hdfs_path:
+  RESULT_ONE : "/data/gowalla/results/one/"
+  RESULT_TWO : "/data/gowalla/results/two/"
+  RESULT_THREE : "/data/gowalla/results/three/"
