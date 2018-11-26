@@ -1,5 +1,5 @@
-Sonobi Test Seed Project
-========================
+Test Project
+============
 
 Introduction
 ----
