@@ -3,7 +3,6 @@ Test Project
 
 Introduction
 ----
-TBW
 
 1. **Creating Virtual Environment and Adding Dependencies**
 
