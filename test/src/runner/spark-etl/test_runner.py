@@ -1,4 +1,3 @@
-"""Run Decomposition Algorithm."""
 
 from datetime import datetime
 from pyspark import HiveContext
