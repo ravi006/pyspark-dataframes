@@ -1,6 +1,6 @@
 """HDFS Read Write."""
 
-from test.utils.exceptions import SonobiFileError
+from test.utils.exceptions import TestFileError
 from test.utils.parser.constants import Constants
 
 
@@ -37,7 +37,7 @@ class HdfsReadWrite(Constants):
 
         except Exception as e:
             print str(e)
-            raise SonobiFileError
+            raise TestFileError
 
     @classmethod
     def write_to_hdfs(cls, df, path, write_format):
@@ -57,4 +57,4 @@ class HdfsReadWrite(Constants):
 
         except Exception as e:
             print str(e)
-            raise SonobiFileError
+            raise TestFileError
